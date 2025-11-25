@@ -47,6 +47,7 @@ China has a EoPR of 0.73%, which is among the top 10 countries with the lowest E
 
 #### Visualization of Emigrants to Population Ratio (EoPR)
 Below is a visualization of Emigrants to Population Ratio of different country on a map created using Tableau. Countries with a higher EoPR would appear more red while countries with a lower EoPR would appear more blue.
+<img width="1851" height="782" alt="image" src="https://github.com/user-attachments/assets/a8199c1f-38ef-496a-8b43-e28770af144b" />
 
 For a more detailed visualizations in Tableau, visit this link below: https://public.tableau.com/shared/4D8F3N8P9?:display_count=n&:origin=viz_share_link
 
@@ -64,6 +65,9 @@ Territories and nations with the lowest NPTPR are Albania, Syria, Grenada, Bosni
 #### Visualization of Net Population Change to Total Population Ratio (NPTPR)
 In this visualization, countries with a higher NPTPR would appear more blue while countries with a lower NPTPR would appear more red.
 
+<img width="1851" height="782" alt="image" src="https://github.com/user-attachments/assets/2df55dcc-7a7e-4016-ba0a-381a5c1e806e" />
+
+
 Link to a More Detailed Version: https://public.tableau.com/shared/9MWBNBTXB?:display_count=n&:origin=viz_share_link
 
 ### Investigating Relationship between NPTPR and GDP per Capital Value
@@ -71,9 +75,15 @@ One interesting trends with the NPTPR is that nations and territories with a hig
 
 For this, I plotted the NPTPR as the X axis against the GDP per capita of different nations as the Y axis within Python in Jupyter Notebook. The plotted datasets look like this:
 
+<img width="952" height="661" alt="image" src="https://github.com/user-attachments/assets/7c77ed77-31c0-466c-b314-802cf5a3a711" />
+
+
 There is a weak linear relationship between the two values. This makes sense since countries with a higher GDP per capita tends to attract talents from nations with a lower GDP per capita. By determining the slope and y-intercept of the fitted line, we can arrive at this linear regression model:
 
 Y = 20642.5 + 455.3X
+
+<img width="943" height="656" alt="image" src="https://github.com/user-attachments/assets/be5876ab-534e-4c72-a2dd-d8c2d2b15555" />
+
 
 Using statsmodels.api.OLS to evaluate the datasets, we can conlude the Pearson correlation coefficient r≈ 0.437, indicating a moderate linear relationship between them. Moreover, in order to perform linear regression on the datasets, the datasets must satisfy the following 4 assumptions.
 
@@ -86,7 +96,7 @@ When plotting the regression line, residual verse covariates plot, residual vers
 
 Although the datasets display a slight linear patterns, a linear model in the form Y = 20642.5 + 455.3X isn't the most ideal model. For future improvement, one can perform transformations onto the model to create a more fitting model.
 
-The codes and details of these works above can be found in my notebook titled Correlation Between GDP Per Capita and NPTPR posted on Kaggle: https://www.kaggle.com/code/daviddave7100/correlation-between-gdp-per-capita-and-nptpr
+The codes and details of these works above can be found in the file attached in the same Github Repository. Another version called Correlation Between GDP Per Capita and NPTPR is also posted on Kaggle: https://www.kaggle.com/code/daviddave7100/correlation-between-gdp-per-capita-and-nptpr
 
 ### Outbound Mobility Ratio
 The previous two ratios, the NPTPR and EoPR, only focuses on the number of immigrants or emigrants of a nation. They don't take in consideration of the education levels or skill gaps of these immigrants. The Outbound Mobility Ratio measures the number of students from a given country studying abroad, expressed as a percentage of total tertiary enrolment in that country.
@@ -101,6 +111,9 @@ Not all countries have their Outbound Mobility Ratio calculated so there are a l
 
 #### Visualization of Outbound Mobility Ratio
 In this visualization, countries with a higher Outbound Mobility Ratio would appear more red while countries with a lower NPTPR would appear more blue.
+
+<img width="1851" height="782" alt="image" src="https://github.com/user-attachments/assets/8d6a0db5-01e7-4de7-991d-a51c95a19704" />
+
 
 Link to a more detailed version: https://public.tableau.com/views/HumanCapitalMigrationStudy/OutboundMobilityRatio?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
