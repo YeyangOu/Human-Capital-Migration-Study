@@ -1,4 +1,5 @@
 ## Introduction
+
 This is a personal research project created to study and investigate the migration patterns of different countries in the world with heavy emphasis on developing country. In this project, we investigate the emigrant population to total population ratio, net population change, outbound mobility ratio of 202 different countries, territories, and regions in the world and compare them to the country's GDP per capita to study different countries migration and human capital flight patterns.
 
 Another version of this project is also published on Kaggle: https://www.kaggle.com/datasets/daviddave7100/immigrations-and-emigrations-statistics
@@ -17,7 +18,8 @@ Another datasets we gathered is the Outbound mobility ratio, which measures the 
 Lastly, we would also be comparing the GDP per capital of a nation with its emigration to population ratio and Outbound mobility ratio to investigate for any correlation.
 
 ## Descriptions of the Datasets
-The dataset contains a list of 202 different countries & regions in the world with their total population, number of immigrants, number of emigrants, net change in population from migration, net population change to total population ratio, emigrants to total population ratio and etc.
+
+The dataset we created to study the migration patterns of different countries was attached in this document as well. The dataset contains a list of 202 different countries & regions in the world with their total population, number of immigrants, number of emigrants, net change in population from migration, net population change to total population ratio, emigrants to total population ratio and etc.
 
 ### Columns
 - **Country**: This column lists out the name of the 202 different countries & regions in the world. (Categorical)
